@@ -17,16 +17,16 @@ function Label(){
             </div>
             <div className="label-container--bottom-content">
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-ing" src=""/>
-                    <h3 className="label-container--bottom-content--card-name"></h3>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/nike-label.jpeg"/>
+                    <h3 className="label-container--bottom-content--card-name">Nike</h3>
                 </div>
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-ing" src=""/>
-                    <h3 className="label-container--bottom-content--card-name"></h3>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/asics-label.jpeg"/>
+                    <h3 className="label-container--bottom-content--card-name">Asics</h3>
                 </div>
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-ing" src=""/>
-                    <h3 className="label-container--bottom-content--card-name"></h3>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/adidas-label.jpeg"/>
+                    <h3 className="label-container--bottom-content--card-name">Adidas</h3>
                 </div>
             </div>
         </div>

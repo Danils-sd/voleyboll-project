@@ -1,9 +1,11 @@
 .label-container{
     margin-top: 700px;
     width: 1440px;
-    height: 1000px;
+    height: 1100px;
     background-color: #fff;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .label-container--top-content{
@@ -34,23 +36,55 @@
 }
 
 .label-container--top-left-content--disc{
-    margin-top: -50px;
+    margin-top: -47px;
     font-size: 19px;
     font-weight: 300;
     width: 350px;
 }
 
 .label-container--top-left-content--btn{
-    margin-top: 50px;
+    margin-top: 47px;
     width: 350px;
     height: 70px;
     font-size: 25px;
     background-color: #fff;
     border: 2px solid #00C6CF;
     color: #00C6CF;
+    border-radius: 5px;
 }
 
 .label-container--top-right-content{
     margin-left: 100px;
     width: 700px;
+}
+
+
+.label-container--bottom-content{
+    margin-top: 30px;
+    /* width: 1440px; */
+    display: flex;
+    gap: 100px;
+}
+
+.label-container--bottom-content--card{
+    width: 350px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(213, 213, 213, 0.15);
+    box-shadow: rgba(67, 241, 145, 0.25) 0px 18px 20px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.label-container--bottom-content--card-img{
+    width: 330px;
+    height: 330px;
+}
+
+.label-container--bottom-content--card-name{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -50px;
+    font-family: Hero New;
 }
