@@ -1,0 +1,57 @@
+.futter-container{
+    width: 1440px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.futter-container--logo{
+    font-size: 43px;
+    font-family: Manrope;
+    font-weight: 100;
+    color: #fff;
+}
+
+.futter-container--logo-second{
+    color: #00C6CF;
+}
+
+.futter-container--number{
+    font-size: 26px;
+    font-family: Manrope;
+    font-weight: 100;
+    color: #fff;
+}
+
+.futter-container--contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.futter-container--contacts-contact{
+    transition: 0.2s;
+    width: 50px;
+    height: 50px;
+}
+
+.futter-container-number{
+    width: 45px;
+    height: 45px;
+}
+
+.futter-container--contacts-contact:hover{
+    width: 53px;
+    height: 53px;
+}
+
+.futter-container-number:hover{
+    width: 48px;
+    height: 48px;
+}

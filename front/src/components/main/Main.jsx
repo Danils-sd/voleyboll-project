@@ -1,3 +1,4 @@
+import Futter from "../elements/fotter/Futter";
 import Navbar from "../elements/nav/Navbar";
 import "./Main.css";
 import Label from "./label/Label";
@@ -11,6 +12,7 @@ function Main(){
             <Label/>
             <h1 className="main-contaoner--text-anim">Хорошей игры!</h1>
             <LabelForm/>
+            <Futter/>
         </div>
     )
 }
