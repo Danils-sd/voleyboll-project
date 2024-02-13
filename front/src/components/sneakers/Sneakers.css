@@ -1,0 +1,27 @@
+.sneakers-container{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sneakers-container--block{
+    margin-top: 30px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sneakers-container--block-name{
+    font-size: 48px;
+    font-family: Manrope;
+    font-weight: 300;
+}
+
+.sneakers-container--block-stuf{
+    height: 300px;
+    width: 1440px;
+    border-top: 2px solid #dfdfdf;
+}
