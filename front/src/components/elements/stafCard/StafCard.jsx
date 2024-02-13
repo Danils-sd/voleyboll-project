@@ -15,12 +15,12 @@ function StafCard({id, img, name, disc, price}){
     return(
         <div className="stafCard-container">
             <div className="stafCard-container--img-block">
-                <img className="stafCard-container--img" src={img}/>
+                <img className="stafCard-container--img" src={img} alt="🏐"/>
             </div>
             <h1 className="stafCard-container--name">{name} {disc}</h1>
             <div className="stafCard-container--buy">
                 <p className="stafCard-container--price">{price}p</p>
-                <img onClick={handAdd} className="stafCard-container--buy-img" src="./icons/add.svg"/>
+                <img onClick={handAdd} className="stafCard-container--buy-img" src="./icons/add.svg" alt="➕"/>
             </div>
         </div>
     )

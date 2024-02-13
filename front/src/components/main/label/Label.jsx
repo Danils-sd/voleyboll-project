@@ -17,19 +17,19 @@ function Label(){
                     </p>
                     <button onClick={handSneakers} className="label-container--top-left-content--btn">Перейти</button>
                 </div>
-                <img className="label-container--top-right-content" src="./imgs/label-kros.jpeg"/>
+                <img className="label-container--top-right-content" src="./imgs/label-kros.jpeg" alt="🛼"/>
             </div>
             <div className="label-container--bottom-content">
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-img" src="./imgs/nike-label.jpeg"/>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/nike-label.jpeg" alt="🏐"/>
                     <h3 className="label-container--bottom-content--card-name">Nike</h3>
                 </div>
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-img" src="./imgs/asics-label.jpeg"/>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/asics-label.jpeg" alt="🏐"/>
                     <h3 className="label-container--bottom-content--card-name">Asics</h3>
                 </div>
                 <div className="label-container--bottom-content--card">
-                    <img className="label-container--bottom-content--card-img" src="./imgs/adidas-label.jpeg"/>
+                    <img className="label-container--bottom-content--card-img" src="./imgs/adidas-label.jpeg" alt="🏐"/>
                     <h3 className="label-container--bottom-content--card-name">Adidas</h3>
                 </div>
             </div>

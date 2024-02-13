@@ -18,7 +18,7 @@ function Navbar(){
                 <span onClick={handNavigateMain} className="navbar-container--section">Главная</span>
                 <span onClick={handNavigateSneakers} className="navbar-container--section">Кросовки</span>
                 <span onClick={handNavigateBalls}className="navbar-container--section">Мячи</span>
-                <button className="navbar-container--korz"><img className="navbar-container--korz--img" src="./icons/korz.png"/></button>
+                <button className="navbar-container--korz"><img className="navbar-container--korz--img" src="./icons/korz.png" alt="🗑️"/></button>
             </div>
         </div>
     );
