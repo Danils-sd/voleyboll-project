@@ -7,11 +7,11 @@
 }
 
 .sneakers-container--block{
-    margin-top: 30px;
     width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .sneakers-container--block-name{
@@ -21,7 +21,13 @@
 }
 
 .sneakers-container--block-stuf{
-    height: 300px;
     width: 1440px;
     border-top: 2px solid #dfdfdf;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: grid;
+    
+    grid-template-columns: repeat(4, 0fr);
+    gap: 40px;
 }

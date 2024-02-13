@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1000000010,
+        "brand": "Adidas",
+        "op": "STABIL NEXT GEN",
+        "pryse": 18990,
+        "img": "https://kinash.ru/pictures/product/middle/226657_middle.jpg"
+    },
+    {
+        "id": 100000011,
+        "brand": "Adidas",
+        "op": " STABIL NEXT GEN MARVEL",
+        "pryse": 18990,
+        "img": "https://kinash.ru/pictures/product/middle/224826_middle.jpg"
+    },
+    {
+        "id": 100000012,
+        "brand": "Adidas",
+        "op": "ADIZERO FASTCOURT",
+        "pryse": 18990,
+        "img": "https://kinash.ru/pictures/product/middle/227720_middle.jpg"
+    },
+    {
+        "id": 100000013,
+        "brand": "Adidas",
+        "op": "ADIZERO FASTCOURT 2",
+        "pryse": 18990,
+        "img": "https://kinash.ru/pictures/product/middle/215052_middle.jpg"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 100000006,
+        "brand": "Asics",
+        "op": "Sky Elite FF MT 2",
+        "pryse": 27990,
+        "img": "https://www.professionalsport.ru/spree/products/000/291/801/product/asics-sky-elite-ff-mt-2-1051a065-403-1051a065-403-2.jpg?1687358324"
+    },
+    {
+        "id": 100000007,
+        "brand": "Asics",
+        "op": "Gel Rocket 10",
+        "pryse": 13600,
+        "img": "https://www.professionalsport.ru/spree/products/000/299/888/product/1071a054_103_1_asics_rocket_10.jpg?1692794669"
+    },
+    {
+        "id": 100000008,
+        "brand": "Asics",
+        "op": "Metarise",
+        "pryse": 29990,
+        "img": "https://www.professionalsport.ru/spree/products/000/266/359/product/asics-metarise-1051a058-101-2.jpg?1667807398"
+    },
+    {
+        "id": 100000009,
+        "brand": "Asics",
+        "op": "Upcourt 3",
+        "pryse": 13990,
+        "img": "https://www.professionalsport.ru/spree/products/000/152/939/product/1071a019_005_1.jpg?1579633899"
+    }
+]
