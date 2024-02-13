@@ -1,6 +1,10 @@
 import "./Label.css";
-
+import { useNavigate } from "react-router-dom";
 function Label(){
+    const navigate = useNavigate();
+    const handSneakers = () => {
+        navigate("/sneakers");
+    }
     return(
         <div className="label-container">
             <div className="label-container--top-content">
@@ -11,7 +15,7 @@ function Label(){
                         спортивных кроссовок для влейбола
                         состоящий только из ведущих брендов
                     </p>
-                    <button className="label-container--top-left-content--btn">Перейти</button>
+                    <button onClick={handSneakers} className="label-container--top-left-content--btn">Перейти</button>
                 </div>
                 <img className="label-container--top-right-content" src="./imgs/label-kros.jpeg"/>
             </div>

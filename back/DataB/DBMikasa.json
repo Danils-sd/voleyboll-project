@@ -1,0 +1,30 @@
+[
+    {
+        "id": 100000014,
+        "brand": "Mikasa",
+        "op": "V200W",
+        "pryse": 12420,
+        "img": "https://kinash.ru/pictures/product/big/212541_big.jpg"
+    },
+    {
+        "id": 100000015,
+        "brand": "Mikasa",
+        "op": "V300W-AT-TR",
+        "pryse": 14000,
+        "img": "https://kinash.ru/pictures/product/big/168183_big.jpg"
+    },
+    {
+        "id": 100000016,
+        "brand": "Mikasa",
+        "op": "BV550C",
+        "pryse": 12000,
+        "img": "https://kinash.ru/pictures/product/big/225574_big.jpeg"
+    },
+    {
+        "id": 100000017,
+        "brand": "Mikasa",
+        "op": "SV335-V8",
+        "pryse": 3780,
+        "img": "https://kinash.ru/pictures/product/big/168133_big.jpg"
+    }
+]

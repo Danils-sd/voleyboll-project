@@ -1,6 +1,10 @@
 import "./LabelForm.css";
-
+import {useNavigate} from "react-router-dom"
 function LabelForm(){
+    const navigate = useNavigate();
+    const handBalls = () => {
+        navigate("/balls");
+    }
     return(
         <div className="label-form-container">
             <div className="label-form-container--top-content">
@@ -11,7 +15,7 @@ function LabelForm(){
                         ведущих брендов,
                         используемые в профессиональных матчах
                     </p>
-                    <button className="label-form-container--top-left-content--btn">Перейти</button>
+                    <button onClick={handBalls} className="label-form-container--top-left-content--btn">Перейти</button>
                 </div>
                 <img className="label-form-container--top-right-content" src="./imgs/mikasa-label.jpeg"/>
             </div>

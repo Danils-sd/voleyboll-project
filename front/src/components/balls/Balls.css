@@ -1,4 +1,4 @@
-.sneakers-container{
+.balls-container{
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.sneakers-container--block{
+.balls-container--block{
     width: 1440px;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,13 @@
     margin-bottom: 50px;
 }
 
-.sneakers-container--block-name{
+.balls-container--block-name{
     font-size: 48px;
     font-family: Manrope;
     font-weight: 300;
 }
 
-.sneakers-container--block-stuf{
+.balls-container--block-stuf{
     width: 1440px;
     border-top: 2px solid #dfdfdf;
     box-sizing: border-box;

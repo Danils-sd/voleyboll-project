@@ -1,0 +1,23 @@
+[
+    {
+        "id": 100000018,
+        "brand": "Molten",
+        "op": "V5M2000",
+        "pryse": 4640,
+        "img": "https://kinash.ru/pictures/product/big/201422_big.jpg"
+    },
+    {
+        "id": 100000019,
+        "brand": "Molten",
+        "op": "V5M5000X",
+        "pryse": 15260,
+        "img": "https://kinash.ru/pictures/product/big/201444_big.jpg"
+    },
+    {
+        "id": 100000020,
+        "brand": "Molten",
+        "op": "V5M1500",
+        "pryse": 3335,
+        "img": "https://kinash.ru/pictures/product/big/201952_big.jpg"
+    }
+]
