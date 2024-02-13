@@ -1,12 +1,16 @@
 import "./Futter.css";
-
+import { useNavigate } from "react-router-dom";
 function Futter(){
+    const navigate = useNavigate();
+    const handMain = () => {
+        navigate("/");
+    };
     const handNumber = () => {
         alert("Контактный номер:\n\n+7(926)-559-5745");
-    }
+    };
     return(
         <div className="futter-container">
-            <h1 className="futter-container--logo">volley<span className="futter-container--logo-second">Store</span></h1>
+            <h1 onClick={handMain} className="futter-container--logo">volley<span className="futter-container--logo-second">Store</span></h1>
             {/* <h1 className="futter-container--number">+7 926 559 5745</h1> */}
             <div className="futter-container--contacts">
                 <a href="https://t.me/dushni_la"><img className="futter-container--contacts-contact" src="./icons/contacts-tg.svg"/></a>
