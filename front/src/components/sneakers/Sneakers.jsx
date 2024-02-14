@@ -12,39 +12,54 @@ function Sneakers(){
     const[DBAdidas, setDBAdidas] = useState([]);
     const[isLoadingAdidas, setLoadingAdidas] = useState(false);
     useEffect(() => {
-        fetch(CONSTS.URL + "/api/sneakers/nike", {
-            method: "GET"
-        }).then(res => {
-            return res.json();
-        }).then(({data}) => {
-            setDB(data);
-            setLoading(true);
-            console.log(DB);
-            console.log(isLoading);
-        })
+        try {
+            fetch(CONSTS.URL + "/api/sneakers/nike", {
+                method: "GET"
+            }).then(res => {
+                return res.json();
+            }).then(({data}) => {
+                setDB(data);
+                setLoading(true);
+                console.log(DB);
+                console.log(isLoading);
+            })
+        } catch (error) {
+            console.log(error);
+        }
+        
 
-        fetch(CONSTS.URL + "/api/sneakers/asics", {
-            method: "GET"
-        }).then(res => {
-            return res.json();
-        }).then(({data}) => {
-            setDBAsics(data);
-            setLoadingAsics(true);
-            console.log(DBAsics);
-            console.log(isLoadingAsics);
-        })
+        try {
+            fetch(CONSTS.URL + "/api/sneakers/asics", {
+                method: "GET"
+            }).then(res => {
+                return res.json();
+            }).then(({data}) => {
+                setDBAsics(data);
+                setLoadingAsics(true);
+                console.log(DBAsics);
+                console.log(isLoadingAsics);
+            })
+    
+        } catch (error) {
+            console.log(error);
+        }
 
-        fetch(CONSTS.URL + "/api/sneakers/adidas", {
-            method: "GET"
-        }).then(res => {
-            return res.json();
-        }).then(({data}) => {
-            setDBAdidas(data);
-            setLoadingAdidas(true);
-            console.log(DBAdidas);
-            console.log(isLoadingAdidas);
-        })
+        try {
+            fetch(CONSTS.URL + "/api/sneakers/adidas", {
+                method: "GET"
+            }).then(res => {
+                return res.json();
+            }).then(({data}) => {
+                setDBAdidas(data);
+                setLoadingAdidas(true);
+                console.log(DBAdidas);
+                console.log(isLoadingAdidas);
+            })
+        } catch (error) {
+            console.log(error);
+        }
     }, [])
+
     return(
         <div className="sneakers-container">
             <Navbar/>

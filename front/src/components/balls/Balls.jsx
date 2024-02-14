@@ -12,23 +12,31 @@ function Balls(){
     const[isLoadingMolten, setLoadingMolten] = useState(false);
 
     useEffect(() => {
-        fetch(CONSTS.URL + "/api/balls/mikasa", {
-            method: "GET"
-        }).then(res => {
-            return res.json();
-        }).then(({data}) => {
-            setDBMikasa(data);
-            setLoadingMikasa(true);
-        })
+        try {
+            fetch(CONSTS.URL + "/api/balls/mikasa", {
+                method: "GET"
+            }).then(res => {
+                return res.json();
+            }).then(({data}) => {
+                setDBMikasa(data);
+                setLoadingMikasa(true);
+            })
+        } catch (error) {
+            console.log(error);
+        }
 
-        fetch(CONSTS.URL + "/api/balls/molten", {
-            method: "GET"
-        }).then(res => {
-            return res.json();
-        }).then(({data}) => {
-            setDBMolten(data);
-            setLoadingMolten(true);
-        })
+        try {
+            fetch(CONSTS.URL + "/api/balls/molten", {
+                method: "GET"
+            }).then(res => {
+                return res.json();
+            }).then(({data}) => {
+                setDBMolten(data);
+                setLoadingMolten(true);
+            })
+        } catch (error) {
+            console.log(error);
+        }
     }, []);
     return(
         <div className="balls-container">
