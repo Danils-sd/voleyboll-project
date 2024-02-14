@@ -11,6 +11,10 @@ function Navbar(){
     const handNavigateBalls = () => {
         navigate("/balls");
     }
+
+    const haddNavigateKorz = () => {
+        navigate('/korz');
+    }
     return(
         <div className="navbar-container">
             <h1 onClick={handNavigateMain} className="navbar-container--logo">voley<span className="navbar-logo--second">Store</span></h1>
@@ -18,7 +22,7 @@ function Navbar(){
                 <span onClick={handNavigateMain} className="navbar-container--section">Главная</span>
                 <span onClick={handNavigateSneakers} className="navbar-container--section">Кросовки</span>
                 <span onClick={handNavigateBalls}className="navbar-container--section">Мячи</span>
-                <button className="navbar-container--korz"><img className="navbar-container--korz--img" src="./icons/korz.png" alt="🗑️"/></button>
+                <button onClick={haddNavigateKorz} className="navbar-container--korz"><img className="navbar-container--korz--img" src="./icons/korz.png" alt="🗑️"/></button>
             </div>
         </div>
     );

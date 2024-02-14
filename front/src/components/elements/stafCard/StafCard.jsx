@@ -4,12 +4,40 @@ function StafCard({id, img, name, disc, price}){
     const handAdd = () =>{
         if(localStorage.getItem("stufList") != null){
             const stuf = JSON.parse(localStorage.getItem("stufList"));
-            stuf.push(id);
+            stuf.push(
+                {
+                    id: id,
+                    img: img,
+                    name: name,
+                    disc: disc,
+                    price: price
+                }
+            );
             localStorage.setItem("stufList", JSON.stringify(stuf));
         } else {
             const stuf = [];
-            stuf.push(id);
+            stuf.push(
+                {
+                    id: id,
+                    img: img,
+                    name: name,
+                    disc: disc,
+                    price: price
+                }
+            );
             localStorage.setItem("stufList", JSON.stringify(stuf));
+        }
+
+        if(localStorage.getItem("stufList") != null){
+            const stuf = JSON.parse(localStorage.getItem("stufList"));
+            let sum = 0;
+            stuf.map((e) => {
+                sum += e.price;
+            })
+            localStorage.setItem("stufSum", JSON.stringify(sum));
+        } else {
+            
+            localStorage.setItem("stufSum", JSON.stringify(0));
         }
     }
     return(

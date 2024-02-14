@@ -1,0 +1,62 @@
+.smallCard-container{
+    width: 300px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 230, 132, 0.15);
+    box-shadow: rgba(67, 241, 145, 0.25) 0px 18px 20px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.smallCard-container--img-block{
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+.smallCard-container--img-block:hover{
+    transform: translateY(-15px);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+.smallCard-container--img{
+    border-radius: 15px;
+    max-width: 260px;
+    max-height: 200px;
+}
+
+.smallCard-container--name{
+    margin-top: 10px;
+    width: 260px;
+    height: 70px;
+    font-size: 25px;
+    font-family: Manrope;
+    font-weight: 500;
+}
+
+.smallCard-container--buy{
+    margin-top: -20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smallCard-container--price{
+    font-size: 29px;
+    font-family: Manrope;
+    font-weight: 300;
+}
+
+.smallCard-container--buy-img{
+    transform: rotate(45deg);
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+
+.smallCard-container--buy-img:hover{
+    width: 52px;
+    height: 52px;
+}
