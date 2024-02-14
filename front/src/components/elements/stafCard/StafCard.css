@@ -53,9 +53,18 @@
     width: 50px;
     height: 50px;
     transition: 0.2s;
+    border-radius: 50%;
 }
 
 .stafCard-container--buy-img:hover{
     width: 52px;
     height: 52px;
 }
+
+.stafCard-container--buy-img:active{
+    transition: 0.1s;
+    background-color: #cbfca5; 
+    width: 56px;
+    height: 56px;
+}
+
