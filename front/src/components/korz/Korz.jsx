@@ -2,7 +2,6 @@ import "./Korz.css";
 import Futter from "../elements/fotter/Futter";
 import Navbar from "../elements/nav/Navbar";
 import { useEffect, useState } from "react";
-import StafCard from "../elements/stafCard/StafCard";
 import SmallCard from "./smallCard/SmallCard";
 function Korz(){
     const [stuf, setStuf] = useState([])
