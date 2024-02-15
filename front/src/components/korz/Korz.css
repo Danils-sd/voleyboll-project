@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 60px;
+    min-height: 420px;
 }
 
 .korz-container--content-left{
@@ -65,12 +66,44 @@
     font-size: 22px;
 }
 
+.korz-container--content-left-block-oform{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+}
+
 .korz-container--content-left-final{
-    margin-top: 20px;
+    margin-top: 33px;
     font-family: Hero New;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100px;
 }
+
+.korz-container--content-left-btn{
+    margin-top: 32px;
+    width: 600px;
+    height: 85px;
+    font-size: 30px;
+    border: 2px solid #00C6CF;
+    font-family: Hero New;
+    font-weight: 400;
+    background-color: #fff;
+    color: #00C6CF;
+    transition: 0.2s;
+}
+
+.korz-container--content-left-btn:hover{
+    background-color: #e3feff;
+}
+
+.korz-container--content-left-btn:active{
+    transition: 0.1s;
+    color: #35d26e;
+    border: 2px solid #35d26e;
+    background-color: #fff;
+}
+
 .korz-container--content-right{
     box-sizing: border-box;
     padding-left: 80px;

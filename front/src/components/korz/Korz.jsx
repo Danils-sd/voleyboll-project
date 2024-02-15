@@ -3,6 +3,7 @@ import Futter from "../elements/fotter/Futter";
 import Navbar from "../elements/nav/Navbar";
 import { useEffect, useState } from "react";
 import SmallCard from "./smallCard/SmallCard";
+import { useNavigate } from "react-router-dom";
 function Korz(){
     const [stuf, setStuf] = useState([])
     const [isGet, setGet] = useState(false)
@@ -19,6 +20,11 @@ function Korz(){
 
         setGet(true);
     }, [])
+
+    const navigate = useNavigate();
+    const handHavigateForm = () => {
+        navigate("/form")
+    }
     return(
         <div className="korz-container">
             <Navbar/>
@@ -39,8 +45,17 @@ function Korz(){
                             )
                         })
                     )}
-                    {isGet && (
-                        <span className="korz-container--content-left-final">Итог: {finalPrice}p</span>
+                    {isGet && finalPrice !=0 && (
+                        <div className="korz-container--content-left-block-oform">
+                            <span className="korz-container--content-left-final">Итог: {finalPrice}p</span>
+                            <button onClick={handHavigateForm} className="korz-container--content-left-btn">Оформить заказ</button>
+                        </div>
+                        
+                    )}
+                    {finalPrice == 0 && (
+                        <div className="korz-container--content-left-block-oform">
+                            <span className="korz-container--content-left-final">Пока здесь нет товаров</span>
+                        </div>
                     )}
                 </div>
                 <div className="korz-container--content-right">

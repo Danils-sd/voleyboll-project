@@ -5,6 +5,7 @@ import Error from "./error/Error";
 import Sneakers from "./sneakers/Sneakers";
 import Balls from "./balls/Balls";
 import Korz from "./korz/Korz";
+import ZakForm from "./zakForm/ZakForm";
 
 
 function Router(){
@@ -14,6 +15,7 @@ function Router(){
         <Route element={<Sneakers/>} path="/sneakers"/>
         <Route element={<Balls/>} path="/balls"/>
         <Route element={<Korz/>} path="/korz"/>
+        <Route element={<ZakForm/>} path="/form"/>
         <Route element={<Error/>} path="*"/>
     </Routes>
     </BrowserRouter>
