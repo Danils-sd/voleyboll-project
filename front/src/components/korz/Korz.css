@@ -112,3 +112,40 @@
     grid-template-columns: repeat(2, 0fr);
     gap: 60px;
 }
+
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .korz-container{
+        width: 768px;
+    }
+    .korz-container--content{
+        width: 768px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .korz-container--content-left{
+        width: 768px;
+        border-right: none;
+    }
+
+    .korz-container--content-left-card{
+        width: 750px;
+    }
+
+    .korz-container--content-right{
+        width: 768px;
+        padding-left: 55px;
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        gap: 50px;
+    }
+}
+
+@media(max-width: 576px){
+
+}

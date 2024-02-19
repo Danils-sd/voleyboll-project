@@ -31,3 +31,31 @@
     grid-template-columns: repeat(4, 0fr);
     gap: 40px;
 }
+
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .sneakers-container{
+        width: 768px;
+    }
+    .sneakers-container--block{
+        width: 768px;
+    }
+    .sneakers-container--block-name{
+        font-size: 40px;
+    }
+    .sneakers-container--block-stuf{
+        width: 768px;
+        padding-left: 60px;
+        padding-top: 30px;
+        grid-template-columns: repeat(2, 0fr);
+        gap: 40px;
+    }
+}
+
+@media(max-width: 576px){
+
+}

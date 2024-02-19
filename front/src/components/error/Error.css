@@ -21,3 +21,24 @@
     font-weight: 1000;
     color: #00C6CF;
 }
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .error-container{
+        width: 768px;
+        min-height: 600px;
+    }
+    .error-container--error{
+        font-size: 50px;
+    }
+    .error-container--messeg{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 576px){
+
+}

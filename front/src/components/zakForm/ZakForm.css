@@ -98,3 +98,30 @@ input{
     flex-direction: column;
     align-items: center;
 }
+
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .zakForm-container{
+        width: 768px;
+    }
+
+    .zakForm-container-content{
+        width: 768px;
+        flex-direction: column;
+    }
+    .zakForm-container-content-left{
+        width: 768px;
+    }
+
+    .zakForm-container-content-right{
+        width: 768px;
+    }
+}
+
+@media(max-width: 576px){
+
+}
