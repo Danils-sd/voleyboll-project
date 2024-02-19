@@ -110,6 +110,7 @@ input{
     }
 
     .zakForm-container-content{
+        min-height: 530px;
         width: 768px;
         flex-direction: column;
     }
