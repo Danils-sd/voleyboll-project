@@ -63,3 +63,32 @@
     height: 70%;
     background-color: rgb(255, 255, 255);
 }
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .navbar-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .navbar-container--logo{
+        font-size: 35px;
+    }
+    .navbar-container--sections{
+        gap: 30px;
+    }
+    .navbar-container--section{
+        font-size: 25px;
+    }
+    .navbar-container--korz{
+        margin-left: 15px;
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media(max-width: 576px){
+
+}

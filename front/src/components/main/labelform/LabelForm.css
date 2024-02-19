@@ -115,3 +115,74 @@
     margin-top: 10px;
     font-family: Hero New;
 }
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .label-form-container{
+        margin-top: 350px;
+        width: 768px;
+        height: 780px;
+    }
+    .label-form-container--top-content{
+        margin-top: -60px;
+        
+    }
+    .label-form-container--top-left-content{
+        margin-left: -50px;
+        width: 300px;
+    }
+    
+    .label-form-container--top-left-content--ab{
+        margin-top: 0px;
+        font-size: 60px;
+    }
+    
+    .label-form-container--top-left-content--disc{
+        margin-top: -30px;
+        font-size: 17px;
+        font-weight: 300;
+        width: 350px;
+    }
+    
+    .label-form-container--top-left-content--btn{
+        margin-top: 47px;
+        width: 300px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .label-form-container--top-right-content{
+        margin-left: 50px;
+        width: 350px;
+    }
+
+    .label-form-container--bottom-content{
+        margin-top: -60px;
+        display: flex;
+        gap: 50px;
+    }
+
+    .label-form-container--bottom-content--card{
+        width: 200px;
+        height: 230px;
+    }
+
+    .label-form-container--bottom-content--card-img{
+        width: 160px;
+        height: 160px;
+        transition: 0.5s;
+    }
+
+    .label-form-container--bottom-content--card-name{
+        transition: 0.7s;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 7px;
+    }
+}
+
+@media(max-width: 576px){
+
+}
