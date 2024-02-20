@@ -1,0 +1,121 @@
+.adminMain-container{
+    width: 1440px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adminMain-container--ab{
+    font-size: 50px;
+    font-family: Hero New;
+    font-weight: 500;
+
+}
+
+.adminMain-container--content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.adminMain-container--card{
+    margin-top: 10px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #dfdfdf;
+    border-bottom: 2px solid #dfdfdf;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.adminMain-container--card-left{
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    border-right: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.adminMain-container--card-left-cont{
+    font-family: Hero New;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.adminMain-container--card-right{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.adminMain-container--card-right-ab{
+    margin-top: 0px;
+    font-family: Hero New;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.adminMain-container--card-right-t{
+    font-family: Hero New;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+@media(max-width: 1440px){
+  
+}
+
+@media(max-width: 768px){
+    .adminMain-container{
+        width: 768px;
+    }
+
+    .adminMain-container--ab{
+        font-size: 40px;
+    }
+
+    .adminMain-container--card{
+        width: 768px;
+    }
+    
+    .adminMain-container--card-left{
+        min-width: 460px;
+    }
+    
+    .adminMain-container--card-left-cont{
+        font-family: Hero New;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .adminMain-container--card-right{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .adminMain-container--card-right-ab{
+        margin-top: 0px;
+        font-family: Hero New;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .adminMain-container--card-right-t{
+        font-family: Hero New;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+@media(max-width: 576px){
+
+}

@@ -16,6 +16,8 @@ const DBAdidas = require('./DataB/DBAdidas.json');
 const DBMikasa = require('./DataB/DBMikasa.json');
 const DBMolten = require('./DataB/DBMolten.json');
 
+const DBZak = require("./DataB/DBZak.json");
+
 app.get("/api/sneakers/nike", (req, res) => {
     res.json({data: DBNike});
 })
@@ -35,6 +37,21 @@ app.get("/api/balls/mikasa", (req, res) => {
 
 app.get("/api/balls/molten", (req, res) => {
     res.json({data: DBMolten});
+})
+
+app.get("/api/admin-auth/:login/:password", (req, res) => {
+    const json1 = fs.readFileSync("./DataB/DBAdmin.json", "utf8");
+    const object = JSON.parse(json1);
+    if((object.login === req.params["login"]) && (object.password === req.params["password"])){
+        res.json({data: {
+            res: true,
+            content: DBZak
+        }});
+    } else {
+        res.json({data: {
+            res: false
+        }});
+    }
 })
 
 app.post("/api/zak", (req, res) => {
