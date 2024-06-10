@@ -21,7 +21,7 @@ function AdminMain({stuf}){
                                     {(
                                         e.stuf.map(t => {
                                             return(
-                                                <span className="adminMain-container--card-right-t">id товаа: {t.id}</span>
+                                                <span className="adminMain-container--card-right-t">id товаа: {t}</span>
                                             )
                                         })
                                     )}

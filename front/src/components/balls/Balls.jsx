@@ -13,7 +13,7 @@ function Balls(){
 
     useEffect(() => {
         try {
-            fetch(CONSTS.URL + "/api/balls/mikasa", {
+            fetch(CONSTS.URL + "/api/bolls/Mikasa", {
                 method: "GET"
             }).then(res => {
                 return res.json();
@@ -26,7 +26,7 @@ function Balls(){
         }
 
         try {
-            fetch(CONSTS.URL + "/api/balls/molten", {
+            fetch(CONSTS.URL + "/api/bolls/Molten", {
                 method: "GET"
             }).then(res => {
                 return res.json();

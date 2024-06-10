@@ -22,8 +22,9 @@ function AdminAuth(){
                 return res.json()
             }).then(({data}) => {
                 if(data.res){
-                    setStuf(data.content.stuf)
                     console.log(data.content.stuf);
+                    setStuf(data.content)
+                    console.log(data.content);
                     setIsLogin(true);
                 } else {
                     alert("Неверный логин или пароль");

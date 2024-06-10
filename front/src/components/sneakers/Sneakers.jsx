@@ -13,7 +13,7 @@ function Sneakers(){
     const[isLoadingAdidas, setLoadingAdidas] = useState(false);
     useEffect(() => {
         try {
-            fetch(CONSTS.URL + "/api/sneakers/nike", {
+            fetch(CONSTS.URL + "/api/snikers/Nike", {
                 method: "GET"
             }).then(res => {
                 return res.json();
@@ -29,7 +29,7 @@ function Sneakers(){
         
 
         try {
-            fetch(CONSTS.URL + "/api/sneakers/asics", {
+            fetch(CONSTS.URL + "/api/snikers/Asics", {
                 method: "GET"
             }).then(res => {
                 return res.json();
@@ -45,7 +45,7 @@ function Sneakers(){
         }
 
         try {
-            fetch(CONSTS.URL + "/api/sneakers/adidas", {
+            fetch(CONSTS.URL + "/api/snikers/Adidas", {
                 method: "GET"
             }).then(res => {
                 return res.json();

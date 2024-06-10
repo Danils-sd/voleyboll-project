@@ -72,7 +72,6 @@ function ZakForm(){
             const dateNew = new Date();
             const date = dateNew.getDay() + "/" + dateNew.getMonth() + "/" + dateNew.getFullYear();
             const myData = {
-                id: 0,
                 date: date,
                 name: name,
                 number: number,
@@ -80,7 +79,7 @@ function ZakForm(){
                 stuf: stuf
             }
             try{
-                fetch(CONSTS.URL + "/api/zak", {
+                fetch(CONSTS.URL + "/api/zakaz", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
